@@ -8,19 +8,24 @@
   "sameAs": "https://en.wikipedia.org/wiki/Adam_Smith",
   "subjectOf": "Way",
   "url": "https://smith.SoftwareApplication.theElioWay.com",
- "SoftwareSourceCode": {
+  "SoftwareSourceCode": {
     "codeSampleType": "experimental",
-    "targetProduct": "engage"
-    },
-    "SoftwareApplication": {
-"softwareRequirements": "",
-    },
+    "targetProduct": "theelioway"
+  },
+  "SoftwareApplication": {
+    "softwareRequirements": [
+      "prettier"
+    ]
+  },
   "WebPage": {
-    "breadcrumb": [ "elioway", "smith" ]
-  }, 
-  "private": true,  
+    "breadcrumb": [
+      "theelioway",
+      "smith"
+    ]
+  },
+  "private": true,
   "devDependencies": {
-    "prettier": "^2.8.0"
+    "prettier": "^3.0.3"
   },
   "homepage": "https://smith.Documentation.theElioWay.com",
   "keywords": [
@@ -29,7 +34,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/engage/dontforgetthemilk-theelioway-com/"
+    "url": "https://github.com/theelioway/theelioway.git"
   },
   "scripts": {
     "test": "mocha",
