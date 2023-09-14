@@ -1,0 +1,38 @@
+{
+  "alternateName": "Don't forget the milk, the elioWay",
+  "description": "Webdev's \"hello world\", a TODO app, `Action`, the elioWay.",
+  "disambiguatingDescription": "eat bread til thou return unto the ground, the elioWay",
+  "identifier": "smith",
+  "mainEntityOfPage": "SoftwareApplication",
+  "name": "smith",
+  "sameAs": "https://en.wikipedia.org/wiki/Adam_Smith",
+  "subjectOf": "Way",
+  "url": "https://smith.SoftwareApplication.theElioWay.com",
+ "SoftwareSourceCode": {
+    "codeSampleType": "experimental",
+    "targetProduct": "engage"
+    },
+    "SoftwareApplication": {
+"softwareRequirements": "",
+    },
+  "WebPage": {
+    "breadcrumb": [ "elioway", "smith" ]
+  }, 
+  "private": true,  
+  "devDependencies": {
+    "prettier": "^2.8.0"
+  },
+  "homepage": "https://smith.Documentation.theElioWay.com",
+  "keywords": [
+    "documentation"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/engage/dontforgetthemilk-theelioway-com/"
+  },
+  "scripts": {
+    "test": "mocha",
+    "prettier": "prettier --list-different --write \"**/*.{css,html,js,json,md,mjs,scss,ts,yaml}\""
+  }
+}
