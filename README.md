@@ -30,4 +30,4 @@ cd ~/Dev/theelioway/smith
 
 [MIT](license)
 
-![](./elio-Way-smith-logo.png)
+![](./apple-touch-icon.png)
