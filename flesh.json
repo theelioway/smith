@@ -1,0 +1,33 @@
+{
+  "mainEntityOfPage": "nav",
+  "identifier": "input:hidden",
+  "name": "h1",
+  "alternateName": "h2",
+  "url": "a",
+  "ItemList": {
+    "itemListElement": {
+      "Product": {
+        "brand": "Brand A",
+        "offers": {
+          "price": "3.50",
+          "priceCurrency": "USD"
+        }
+      },
+      "BuyAction": {
+        "name": "form/formset/label",
+        "identifier": "form/formset/input/radio",
+        "mainEntityOfPage": "BuyAction",
+        "BuyAction": {
+          "actionStatus": "PotentialActionStatus"
+        },
+        "Product": {
+          "brand": "Brand A",
+          "offers": {
+            "price": "3.50",
+            "priceCurrency": "USD"
+          }
+        }
+      }
+    }
+  }
+}

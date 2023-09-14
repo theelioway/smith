@@ -1,0 +1,58 @@
+{
+  "identifier": "dontForgetTheMilk",
+  "name": "Dont Forget The Milk",
+  "alternateName": "Don't Forget The Milk",
+  "mainEntityOfPage": "Action",
+  "url": "http://localhost:61000",
+  "image": "https://en.wikipedia.org/wiki/Adam_Smith#/media/File:Adam_Smith_The_Muir_portrait.jpg",
+  "saveAs": "https://en.wikipedia.org/wiki/Adam_Smith",
+  "ItemList": {
+    "itemListElement": [
+      {
+        "identifier": "Eggs",
+        "name": "Eggs",
+        "mainEntityOfPage": "BuyAction",
+        "BuyAction": {
+          "actionStatus": "PotentialActionStatus"
+        },
+        "Product": {
+          "brand": "Brand A",
+          "offers": {
+            "price": "3.50",
+            "priceCurrency": "GBP"
+          }
+        }
+      },
+      {
+        "identifier": "Cheese",
+        "name": "Cheese",
+        "mainEntityOfPage": "BuyAction",
+        "BuyAction": {
+          "actionStatus": "PotentialActionStatus"
+        },
+        "Product": {
+          "brand": "Brand B",
+          "offers": {
+            "price": "5.00",
+            "priceCurrency": "GBP"
+          }
+        }
+      },
+      {
+        "identifier": "Milk",
+        "name": "Milk",
+        "mainEntityOfPage": "BuyAction",
+        "BuyAction": {
+          "actionStatus": "PotentialActionStatus"
+        },
+        "Product": {
+          "brand": "Brand C",
+          "offers": {
+            "price": "2.50",
+            "priceCurrency": "GBP"
+          }
+        }
+      }
+    ]
+  }
+}
