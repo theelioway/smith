@@ -1,33 +1,42 @@
 {
-  "mainEntityOfPage": "nav",
+  "subjectOf": "nav/a",
   "identifier": "input:hidden",
+  "image": "figure",
   "name": "h1",
+  "mainEntityOfPage": "h1/small/sup/code",
   "alternateName": "h2",
-  "url": "a",
+  "sameAs": "a",
+  "potentialAction": "PayAction",
   "ItemList": {
     "itemListElement": {
+      "Thing": {
+        "identifier": "ul/li/form/input/hidden",
+        "name": "ul/li/form/legend/h3",
+        "mainEntityOfPage": "ul/li/form/h3/small/sup",
+        "potentialAction": "ul/li/form/BuyAction",
+        "Product": "ul/li/Product"
+      },
       "Product": {
-        "brand": "Brand A",
+        "brand": "dl",
         "offers": {
-          "price": "3.50",
-          "priceCurrency": "USD"
+          "priceCurrency": "dl/dt",
+          "price": "dl/dd"
         }
       },
       "BuyAction": {
-        "name": "form/formset/label",
-        "identifier": "form/formset/input/radio",
-        "mainEntityOfPage": "BuyAction",
-        "BuyAction": {
-          "actionStatus": "PotentialActionStatus"
+        "Action": {
+          "actionStatus": "fieldset/select",
+          "object": "fieldset/input:hidden"
         },
-        "Product": {
-          "brand": "Brand A",
-          "offers": {
-            "price": "3.50",
-            "priceCurrency": "USD"
-          }
-        }
+        "mainEntityOfPage": "input:submit"
       }
     }
+  },
+  "PayAction": {
+    "Action": {
+      "actionStatus": "form/fieldset/select",
+      "object": "form/fieldset/hidden"
+    },
+    "mainEntityOfPage": "form/input:submit"
   }
 }

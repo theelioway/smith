@@ -1,22 +1,34 @@
 {
   "identifier": "dontForgetTheMilk",
   "name": "Dont Forget The Milk",
-  "alternateName": "Don't Forget The Milk",
-  "mainEntityOfPage": "Action",
+  "alternateName": "Adam Smith",
+  "mainEntityOfPage": "ItemList",
   "url": "http://localhost:61000",
   "image": "https://en.wikipedia.org/wiki/Adam_Smith#/media/File:Adam_Smith_The_Muir_portrait.jpg",
-  "saveAs": "https://en.wikipedia.org/wiki/Adam_Smith",
+  "sameAs": "https://en.wikipedia.org/wiki/Adam_Smith",
+  "subjectOf": "https://theElioWay.com",
+  "potentialAction": {
+    "mainEntityOfPage": "PayAction",
+    "Action": {
+      "actionStatus": "PotentialActionStatus",
+      "object": { "identifier": "dontForgetTheMilk" }
+    }
+  },
   "ItemList": {
     "itemListElement": [
       {
-        "identifier": "Eggs",
+        "identifier": "eggs",
         "name": "Eggs",
-        "mainEntityOfPage": "BuyAction",
-        "BuyAction": {
-          "actionStatus": "PotentialActionStatus"
+        "mainEntityOfPage": "Product",
+        "potentialAction": {
+          "mainEntityOfPage": "BuyAction",
+          "Action": {
+            "actionStatus": "PotentialActionStatus",
+            "object": { "identifier": "eggs" }
+          }
         },
         "Product": {
-          "brand": "Brand A",
+          "brand": "FarmerTom",
           "offers": {
             "price": "3.50",
             "priceCurrency": "GBP"
@@ -24,14 +36,18 @@
         }
       },
       {
-        "identifier": "Cheese",
+        "identifier": "cheese",
         "name": "Cheese",
-        "mainEntityOfPage": "BuyAction",
-        "BuyAction": {
-          "actionStatus": "PotentialActionStatus"
+        "mainEntityOfPage": "Product",
+        "potentialAction": {
+          "mainEntityOfPage": "BuyAction",
+          "Action": {
+            "actionStatus": "PotentialActionStatus",
+            "object": { "identifier": "cheese" }
+          }
         },
         "Product": {
-          "brand": "Brand B",
+          "brand": "Daisy Meadow",
           "offers": {
             "price": "5.00",
             "priceCurrency": "GBP"
@@ -39,14 +55,18 @@
         }
       },
       {
-        "identifier": "Milk",
+        "identifier": "milk",
         "name": "Milk",
-        "mainEntityOfPage": "BuyAction",
-        "BuyAction": {
-          "actionStatus": "PotentialActionStatus"
+        "mainEntityOfPage": "Product",
+        "potentialAction": {
+          "mainEntityOfPage": "BuyAction",
+          "Action": {
+            "actionStatus": "PotentialActionStatus",
+            "object": { "identifier": "milk" }
+          }
         },
         "Product": {
-          "brand": "Brand C",
+          "brand": "Daisy Meadow",
           "offers": {
             "price": "2.50",
             "priceCurrency": "GBP"
